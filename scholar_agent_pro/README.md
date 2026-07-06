@@ -468,9 +468,7 @@ scholar_agent_pro.py
 
 如有问题或建议，请通过以下方式联系：
 
-- 邮箱：<contact-email>
-- GitHub Issues：<github-issues-url>
-- 文档地址：<documentation-url>
+- 邮箱：<huzhichao_uno@163.com>
 
 ---
 
