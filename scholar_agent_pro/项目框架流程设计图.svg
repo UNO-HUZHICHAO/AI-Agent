@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 600" width="100%" height="100%">
+    <defs>
+        <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB" />
+        </marker>
+        <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#7C3AED" />
+        </marker>
+        <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#EA580C" />
+        </marker>
+    </defs>
+
+    <rect width="1350" height="600" fill="#FFFFFF" />
+
+    <text x="675" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A" text-anchor="middle" letter-spacing="2">
+        ScholarAgent Pro: 金融文献计量分析智能体架构
+    </text>
+    <line x1="450" y1="65" x2="900" y2="65" stroke="#94A3B8" stroke-width="1.5" stroke-opacity="0.6"/>
+
+    <rect x="240" y="90" width="480" height="420" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="8,4" rx="4" />
+    <rect x="240" y="90" width="220" height="30" fill="#E2E8F0" />
+    <text x="350" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">
+        Phase 1: 数据挖掘与结构化清洗
+    </text>
+
+    <rect x="740" y="90" width="300" height="420" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="8,4" rx="4" />
+    <rect x="740" y="90" width="300" height="30" fill="#F3E8FF" />
+    <text x="890" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#6B46C1" text-anchor="middle">
+        Phase 2: 核心计量经济学建模
+    </text>
+
+    <path d="M 200 300 L 220 300 L 220 180 L 260 180" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+    <path d="M 200 300 L 220 300 L 220 430 L 260 430" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+    <path d="M 460 180 L 490 180 L 490 300 L 520 300" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+    <path d="M 460 430 L 490 430 L 490 300 L 520 300" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+    <path d="M 700 300 L 720 300 L 720 180 L 760 180" fill="none" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+    <path d="M 700 300 L 720 300 L 720 430 L 760 430" fill="none" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+    <path d="M 1020 180 L 1050 180 L 1050 300 L 1080 300" fill="none" stroke="#EA580C" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+    <path d="M 1020 430 L 1050 430 L 1050 300 L 1080 300" fill="none" stroke="#EA580C" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+
+    <rect x="40" y="260" width="160" height="80" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" rx="4" />
+    <text x="120" y="295" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0F172A" text-anchor="middle">自然语言指令</text>
+    <text x="120" y="315" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">(输入研究问题)</text>
+
+    <rect x="260" y="140" width="200" height="80" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" rx="4" />
+    <text x="360" y="170" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">DeepSeek LLM 驱动</text>
+    <text x="360" y="195" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">语义分析与双语关键词提取</text>
+
+    <rect x="260" y="380" width="200" height="100" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" rx="4" />
+    <text x="360" y="410" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1D4ED8" text-anchor="middle">双引擎文献自动化抓取</text>
+    <line x1="280" y1="425" x2="440" y2="425" stroke="#E2E8F0" stroke-width="1" />
+    <text x="360" y="445" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">CNKI (中文知网核心库)</text>
+    <text x="360" y="465" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">OpenAlex (英文前沿文献)</text>
+
+    <rect x="520" y="260" width="180" height="80" fill="#FFFFFF" stroke="#059669" stroke-width="2" rx="4" />
+    <text x="610" y="290" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#047857" text-anchor="middle">数据对齐与结构化</text>
+    <text x="610" y="315" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">跨库去重 | 期刊评级过滤</text>
+
+    <rect x="760" y="130" width="260" height="100" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" rx="4" />
+    <text x="890" y="155" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#4C1D95" text-anchor="middle">基于一元线性回归的趋势预测</text>
+    <rect x="780" y="165" width="220" height="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" rx="2" />
+    <text x="890" y="183" font-family="Consolas, monospace" font-size="13" fill="#991B1B" text-anchor="middle">Count = β₀ + β₁ × Year + ε</text>
+    <text x="890" y="210" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">R² 拟合优度检验 | 5年文献增长率预测</text>
+
+    <rect x="760" y="380" width="260" height="100" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" rx="4" />
+    <text x="890" y="405" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#4C1D95" text-anchor="middle">学术影响力相关性回归模型</text>
+    <rect x="780" y="415" width="220" height="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" rx="2" />
+    <text x="890" y="433" font-family="Consolas, monospace" font-size="13" fill="#991B1B" text-anchor="middle">Citations = β₀ + β₁ × Freq + ε</text>
+    <text x="890" y="460" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">P值显著性检验 | 自动识别高价值赛道</text>
+
+    <rect x="1080" y="260" width="220" height="80" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" rx="4" />
+    <text x="1190" y="290" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#C2410C" text-anchor="middle">量化研究综述生成</text>
+    <text x="1190" y="315" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">LLM报告 + 交互式HTML思维导图</text>
+    
+</svg>
